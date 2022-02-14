@@ -1,12 +1,10 @@
-<head>
-
-</head>
+<head></head>
 <body>
-    <form class='signup' method="post">
+    <form class='login' method="post">
         <div>
             {% csrf_token %}
             {{ form.as_p }}
-            <input type="submit" value="Signup"/>
+            <input type="submit" value="Login"/>
         </div>
     </form>
 </body>
